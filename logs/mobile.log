@@ -1,0 +1,258 @@
+2017-04-20 09:55:08,004 [main:0] INFO  com.giant.mgt.prize.StartServer - 端口为：9000
+2017-04-20 09:55:08,006 [main:2] INFO  com.giant.mgt.prize.StartServer - start...
+2017-04-20 09:55:08,122 [main:118] INFO  org.eclipse.jetty.server.Server - jetty-8.1.16.v20140903
+2017-04-20 09:55:08,977 [main:973] INFO  org.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2017-04-20 09:55:09,013 [main:1009] WARN  org.eclipse.jetty.util.component.AbstractLifeCycle - FAILED jfinal: java.lang.IllegalArgumentException: Properties file not found: F:\Java workspace\winning\WebRoot\WEB-INF\database.properties
+java.lang.IllegalArgumentException: Properties file not found: F:\Java workspace\winning\WebRoot\WEB-INF\database.properties
+	at com.jfinal.config.JFinalConfig.loadPropertyFile(JFinalConfig.java:96)
+	at com.giant.mgt.prize.AppMsConfig.configPlugin(AppMsConfig.java:27)
+	at com.jfinal.core.Config.configJFinal(Config.java:48)
+	at com.jfinal.core.JFinal.init(JFinal.java:67)
+	at com.jfinal.core.JFinalFilter.init(JFinalFilter.java:49)
+	at org.eclipse.jetty.servlet.FilterHolder.doStart(FilterHolder.java:118)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:768)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:265)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1242)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:717)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:494)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:95)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:282)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at com.giant.mgt.prize.StartServer.startUp(StartServer.java:67)
+	at com.giant.mgt.prize.StartServer.main(StartServer.java:38)
+2017-04-20 09:55:09,016 [main:1012] WARN  org.eclipse.jetty.webapp.WebAppContext - Failed startup of context o.e.j.w.WebAppContext{/,file:/F:/Java%20workspace/winning/WebRoot/}
+java.lang.IllegalArgumentException: Properties file not found: F:\Java workspace\winning\WebRoot\WEB-INF\database.properties
+	at com.jfinal.config.JFinalConfig.loadPropertyFile(JFinalConfig.java:96)
+	at com.giant.mgt.prize.AppMsConfig.configPlugin(AppMsConfig.java:27)
+	at com.jfinal.core.Config.configJFinal(Config.java:48)
+	at com.jfinal.core.JFinal.init(JFinal.java:67)
+	at com.jfinal.core.JFinalFilter.init(JFinalFilter.java:49)
+	at org.eclipse.jetty.servlet.FilterHolder.doStart(FilterHolder.java:118)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:768)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:265)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1242)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:717)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:494)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:95)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:282)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at com.giant.mgt.prize.StartServer.startUp(StartServer.java:67)
+	at com.giant.mgt.prize.StartServer.main(StartServer.java:38)
+2017-04-20 09:55:09,112 [main:1108] INFO  org.eclipse.jetty.server.AbstractConnector - Started SelectChannelConnector@0.0.0.0:9000
+2017-04-20 09:55:09,112 [main:1108] INFO  com.giant.mgt.prize.StartServer - jetty start success...
+2017-04-20 09:56:05,171 [main:0] INFO  com.giant.mgt.prize.StartServer - 端口为：9000
+2017-04-20 09:56:05,172 [main:1] INFO  com.giant.mgt.prize.StartServer - start...
+2017-04-20 09:56:05,282 [main:111] INFO  org.eclipse.jetty.server.Server - jetty-8.1.16.v20140903
+2017-04-20 09:56:06,098 [main:927] INFO  org.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2017-04-20 09:56:06,135 [main:964] WARN  org.eclipse.jetty.util.component.AbstractLifeCycle - FAILED jfinal: java.lang.IllegalArgumentException: Properties file not found: F:\Java workspace\winning\WebRoot\WEB-INF\database.properties
+java.lang.IllegalArgumentException: Properties file not found: F:\Java workspace\winning\WebRoot\WEB-INF\database.properties
+	at com.jfinal.config.JFinalConfig.loadPropertyFile(JFinalConfig.java:96)
+	at com.giant.mgt.prize.AppMsConfig.configPlugin(AppMsConfig.java:27)
+	at com.jfinal.core.Config.configJFinal(Config.java:48)
+	at com.jfinal.core.JFinal.init(JFinal.java:67)
+	at com.jfinal.core.JFinalFilter.init(JFinalFilter.java:49)
+	at org.eclipse.jetty.servlet.FilterHolder.doStart(FilterHolder.java:118)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:768)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:265)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1242)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:717)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:494)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:95)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:282)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at com.giant.mgt.prize.StartServer.startUp(StartServer.java:67)
+	at com.giant.mgt.prize.StartServer.main(StartServer.java:38)
+2017-04-20 09:56:06,138 [main:967] WARN  org.eclipse.jetty.webapp.WebAppContext - Failed startup of context o.e.j.w.WebAppContext{/,file:/F:/Java%20workspace/winning/WebRoot/}
+java.lang.IllegalArgumentException: Properties file not found: F:\Java workspace\winning\WebRoot\WEB-INF\database.properties
+	at com.jfinal.config.JFinalConfig.loadPropertyFile(JFinalConfig.java:96)
+	at com.giant.mgt.prize.AppMsConfig.configPlugin(AppMsConfig.java:27)
+	at com.jfinal.core.Config.configJFinal(Config.java:48)
+	at com.jfinal.core.JFinal.init(JFinal.java:67)
+	at com.jfinal.core.JFinalFilter.init(JFinalFilter.java:49)
+	at org.eclipse.jetty.servlet.FilterHolder.doStart(FilterHolder.java:118)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:768)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:265)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1242)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:717)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:494)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:95)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:282)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at com.giant.mgt.prize.StartServer.startUp(StartServer.java:67)
+	at com.giant.mgt.prize.StartServer.main(StartServer.java:38)
+2017-04-20 09:56:06,151 [main:980] WARN  org.eclipse.jetty.util.component.AbstractLifeCycle - FAILED SelectChannelConnector@0.0.0.0:9000: java.net.BindException: Address already in use: bind
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.open(SelectChannelConnector.java:187)
+	at org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:316)
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.doStart(SelectChannelConnector.java:265)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:293)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at com.giant.mgt.prize.StartServer.startUp(StartServer.java:67)
+	at com.giant.mgt.prize.StartServer.main(StartServer.java:38)
+2017-04-20 09:56:06,151 [main:980] WARN  org.eclipse.jetty.util.component.AbstractLifeCycle - FAILED org.eclipse.jetty.server.Server@23fe1d71: java.net.BindException: Address already in use: bind
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.open(SelectChannelConnector.java:187)
+	at org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:316)
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.doStart(SelectChannelConnector.java:265)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:293)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at com.giant.mgt.prize.StartServer.startUp(StartServer.java:67)
+	at com.giant.mgt.prize.StartServer.main(StartServer.java:38)
+2017-04-20 09:56:13,892 [main:0] INFO  com.giant.mgt.prize.StartServer - 端口为：9000
+2017-04-20 09:56:13,892 [main:0] INFO  com.giant.mgt.prize.StartServer - start...
+2017-04-20 09:56:14,000 [main:108] INFO  org.eclipse.jetty.server.Server - jetty-8.1.16.v20140903
+2017-04-20 09:56:14,812 [main:920] INFO  org.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2017-04-20 09:56:14,843 [main:951] WARN  org.eclipse.jetty.util.component.AbstractLifeCycle - FAILED jfinal: java.lang.IllegalArgumentException: Properties file not found: F:\Java workspace\winning\WebRoot\WEB-INF\database.properties
+java.lang.IllegalArgumentException: Properties file not found: F:\Java workspace\winning\WebRoot\WEB-INF\database.properties
+	at com.jfinal.config.JFinalConfig.loadPropertyFile(JFinalConfig.java:96)
+	at com.giant.mgt.prize.AppMsConfig.configPlugin(AppMsConfig.java:27)
+	at com.jfinal.core.Config.configJFinal(Config.java:48)
+	at com.jfinal.core.JFinal.init(JFinal.java:67)
+	at com.jfinal.core.JFinalFilter.init(JFinalFilter.java:49)
+	at org.eclipse.jetty.servlet.FilterHolder.doStart(FilterHolder.java:118)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:768)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:265)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1242)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:717)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:494)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:95)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:282)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at com.giant.mgt.prize.StartServer.startUp(StartServer.java:67)
+	at com.giant.mgt.prize.StartServer.main(StartServer.java:38)
+2017-04-20 09:56:14,845 [main:953] WARN  org.eclipse.jetty.webapp.WebAppContext - Failed startup of context o.e.j.w.WebAppContext{/,file:/F:/Java%20workspace/winning/WebRoot/}
+java.lang.IllegalArgumentException: Properties file not found: F:\Java workspace\winning\WebRoot\WEB-INF\database.properties
+	at com.jfinal.config.JFinalConfig.loadPropertyFile(JFinalConfig.java:96)
+	at com.giant.mgt.prize.AppMsConfig.configPlugin(AppMsConfig.java:27)
+	at com.jfinal.core.Config.configJFinal(Config.java:48)
+	at com.jfinal.core.JFinal.init(JFinal.java:67)
+	at com.jfinal.core.JFinalFilter.init(JFinalFilter.java:49)
+	at org.eclipse.jetty.servlet.FilterHolder.doStart(FilterHolder.java:118)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:768)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:265)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1242)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:717)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:494)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:95)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:282)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at com.giant.mgt.prize.StartServer.startUp(StartServer.java:67)
+	at com.giant.mgt.prize.StartServer.main(StartServer.java:38)
+2017-04-20 09:56:14,935 [main:1043] INFO  org.eclipse.jetty.server.AbstractConnector - Started SelectChannelConnector@0.0.0.0:9000
+2017-04-20 09:56:14,935 [main:1043] INFO  com.giant.mgt.prize.StartServer - jetty start success...
+2017-04-20 09:58:55,999 [main:0] INFO  com.giant.mgt.prize.StartServer - 端口为：9000
+2017-04-20 09:58:55,999 [main:0] INFO  com.giant.mgt.prize.StartServer - start...
+2017-04-20 09:58:56,123 [main:124] INFO  org.eclipse.jetty.server.Server - jetty-8.1.16.v20140903
+2017-04-20 09:58:56,964 [main:965] INFO  org.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2017-04-20 09:58:56,995 [main:996] WARN  org.eclipse.jetty.util.component.AbstractLifeCycle - FAILED jfinal: java.lang.IllegalArgumentException: Properties file not found: F:\Java workspace\winning\WebRoot\WEB-INF\database.properties
+java.lang.IllegalArgumentException: Properties file not found: F:\Java workspace\winning\WebRoot\WEB-INF\database.properties
+	at com.jfinal.config.JFinalConfig.loadPropertyFile(JFinalConfig.java:96)
+	at com.giant.mgt.prize.AppMsConfig.configPlugin(AppMsConfig.java:27)
+	at com.jfinal.core.Config.configJFinal(Config.java:48)
+	at com.jfinal.core.JFinal.init(JFinal.java:67)
+	at com.jfinal.core.JFinalFilter.init(JFinalFilter.java:49)
+	at org.eclipse.jetty.servlet.FilterHolder.doStart(FilterHolder.java:118)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:768)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:265)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1242)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:717)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:494)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:95)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:282)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at com.giant.mgt.prize.StartServer.startUp(StartServer.java:67)
+	at com.giant.mgt.prize.StartServer.main(StartServer.java:38)
+2017-04-20 09:58:56,996 [main:997] WARN  org.eclipse.jetty.webapp.WebAppContext - Failed startup of context o.e.j.w.WebAppContext{/,file:/F:/Java%20workspace/winning/WebRoot/}
+java.lang.IllegalArgumentException: Properties file not found: F:\Java workspace\winning\WebRoot\WEB-INF\database.properties
+	at com.jfinal.config.JFinalConfig.loadPropertyFile(JFinalConfig.java:96)
+	at com.giant.mgt.prize.AppMsConfig.configPlugin(AppMsConfig.java:27)
+	at com.jfinal.core.Config.configJFinal(Config.java:48)
+	at com.jfinal.core.JFinal.init(JFinal.java:67)
+	at com.jfinal.core.JFinalFilter.init(JFinalFilter.java:49)
+	at org.eclipse.jetty.servlet.FilterHolder.doStart(FilterHolder.java:118)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:768)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:265)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1242)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:717)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:494)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:95)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:282)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at com.giant.mgt.prize.StartServer.startUp(StartServer.java:67)
+	at com.giant.mgt.prize.StartServer.main(StartServer.java:38)
+2017-04-20 09:58:57,089 [main:1090] INFO  org.eclipse.jetty.server.AbstractConnector - Started SelectChannelConnector@0.0.0.0:9000
+2017-04-20 09:58:57,090 [main:1091] INFO  com.giant.mgt.prize.StartServer - jetty start success...
+2017-04-20 09:59:09,375 [main:0] INFO  com.giant.mgt.prize.StartServer - 端口为：9000
+2017-04-20 09:59:09,375 [main:0] INFO  com.giant.mgt.prize.StartServer - start...
+2017-04-20 09:59:09,495 [main:120] INFO  org.eclipse.jetty.server.Server - jetty-8.1.16.v20140903
+2017-04-20 09:59:10,311 [main:936] INFO  org.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2017-04-20 09:59:10,346 [main:971] WARN  org.eclipse.jetty.util.component.AbstractLifeCycle - FAILED jfinal: java.lang.IllegalArgumentException: Properties file not found: F:\Java workspace\winning\WebRoot\WEB-INF\database.properties
+java.lang.IllegalArgumentException: Properties file not found: F:\Java workspace\winning\WebRoot\WEB-INF\database.properties
+	at com.jfinal.config.JFinalConfig.loadPropertyFile(JFinalConfig.java:96)
+	at com.giant.mgt.prize.AppMsConfig.configPlugin(AppMsConfig.java:27)
+	at com.jfinal.core.Config.configJFinal(Config.java:48)
+	at com.jfinal.core.JFinal.init(JFinal.java:67)
+	at com.jfinal.core.JFinalFilter.init(JFinalFilter.java:49)
+	at org.eclipse.jetty.servlet.FilterHolder.doStart(FilterHolder.java:118)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:768)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:265)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1242)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:717)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:494)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:95)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:282)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at com.giant.mgt.prize.StartServer.startUp(StartServer.java:67)
+	at com.giant.mgt.prize.StartServer.main(StartServer.java:38)
+2017-04-20 09:59:10,348 [main:973] WARN  org.eclipse.jetty.webapp.WebAppContext - Failed startup of context o.e.j.w.WebAppContext{/,file:/F:/Java%20workspace/winning/WebRoot/}
+java.lang.IllegalArgumentException: Properties file not found: F:\Java workspace\winning\WebRoot\WEB-INF\database.properties
+	at com.jfinal.config.JFinalConfig.loadPropertyFile(JFinalConfig.java:96)
+	at com.giant.mgt.prize.AppMsConfig.configPlugin(AppMsConfig.java:27)
+	at com.jfinal.core.Config.configJFinal(Config.java:48)
+	at com.jfinal.core.JFinal.init(JFinal.java:67)
+	at com.jfinal.core.JFinalFilter.init(JFinalFilter.java:49)
+	at org.eclipse.jetty.servlet.FilterHolder.doStart(FilterHolder.java:118)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:768)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:265)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1242)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:717)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:494)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:95)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:282)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at com.giant.mgt.prize.StartServer.startUp(StartServer.java:67)
+	at com.giant.mgt.prize.StartServer.main(StartServer.java:38)
+2017-04-20 09:59:10,438 [main:1063] INFO  org.eclipse.jetty.server.AbstractConnector - Started SelectChannelConnector@0.0.0.0:9000
+2017-04-20 09:59:10,438 [main:1063] INFO  com.giant.mgt.prize.StartServer - jetty start success...
